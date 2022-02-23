@@ -2,22 +2,35 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.container{
+margin: 0px 50px;
+m
+}
 section{
     display: flex;
-    margin-bottom: 20px;
+    align-items: center;
 }
+
+   .border-line{
+    border-left: 2px solid red;
+   
+   }
+
 #focus-color{
     color: #FF5959;
+  
 }
 .half-width{
     width: 50%;
     padding-left:3%;
-    margin-top: 50px;
+    margin-top: 10px;
+    
     
 }
 .half-width img{
     width: 80%;
     margin-top: 0;
+   
 }
 .link-button{
     text-decoration: none;
@@ -26,16 +39,65 @@ section{
     padding: 10px 30px;
     border-radius: 5px;
 }
-.top-banner{
-    background-image: url(images/);
+.headline-text{
+    display: flex;
+   justify-content: center;
 }
 .headline{
-    display: flex;
-    text-align: justify;
+  display: flex; 
+}
+.headline img{
+    width: 33%;
 }
 #my_mission-color{
     color: #13103A;
 }
 #Color{
     color: #FFAD5A;
+}
+.imgbg-1{
+    background-color: #f3dcc5;
+    border-radius: 30px;
+    padding: 50px ;
+    margin: 2px 15px;
+    
+}
+.imgbg-2{
+    background-color: #efe9f5;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 2px 15px;
+}
+.imgbg-3{
+    background-color: #d7e7b9;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 2px 15px;
+}
+.banner-3{
+    display: flex;
+    align-items: center;
+}
+.banner-width{
+    width: 50%;
+    justify-content: center;
+}
+.banner3-img{
+    width: 80%;
+    align-content: center;
+    margin-top: 20px;
+    background-image: url(images/shapes/shape-1.png);
+}
+.banner-4{
+    display: flex;
+    align-items: center;
+}
+.banner-width{
+    width: 50%;
+    justify-content: center;
+}
+.banner4-img{
+    width: 80%;
+    align-content: center;
+    margin-top: 20px;
 }
